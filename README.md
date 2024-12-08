@@ -541,19 +541,19 @@ print(response)
 ```
 
     > Running step 0c690c36-173f-43dd-8a49-b05489065f45. Step input: Lung cancer is the leading cause of cancer deaths worldwide. If a patient diagnosed with lung cancer has undergone 5 treatment cycles, what is the factorial of the number of cycles completed? Also, is the number of lung cancer stages (usually 4) a prime number? Calculate step by step detailing all of your thought process and make sure you use the tools provided.
-    [1;3;38;5;200mThought: The user has asked for two pieces of information. First, they want to know the factorial of the number of lung cancer treatment cycles a patient has undergone, which is 5. Second, they want to know if the number of lung cancer stages (usually 4) is a prime number. I will use the 'factorial' tool to find the factorial of 5 and the 'is_prime' tool to check if 4 is a prime number.
+    Thought: The user has asked for two pieces of information. First, they want to know the factorial of the number of lung cancer treatment cycles a patient has undergone, which is 5. Second, they want to know if the number of lung cancer stages (usually 4) is a prime number. I will use the 'factorial' tool to find the factorial of 5 and the 'is_prime' tool to check if 4 is a prime number.
     Action: factorial
     Action Input: {'n': 5}
-    [0m[1;3;34mObservation: 120
-    [0m> Running step a6682c95-2f43-4793-b8a6-a3c69b119459. Step input: None
-    [1;3;38;5;200mThought: The 'factorial' tool has returned 120, which is the factorial of 5. So, the factorial of the number of lung cancer treatment cycles a patient has undergone, which is 5, is 120.
+    Observation: 120
+    > Running step a6682c95-2f43-4793-b8a6-a3c69b119459. Step input: None
+    Thought: The 'factorial' tool has returned 120, which is the factorial of 5. So, the factorial of the number of lung cancer treatment cycles a patient has undergone, which is 5, is 120.
     Action: is_prime
     Action Input: {'n': 4}
-    [0m[1;3;34mObservation: False
-    [0m> Running step 7660fab9-af86-4a98-8eed-a91b94034af7. Step input: None
-    [1;3;38;5;200mThought: The 'is_prime' tool has returned False, which means 4 is not a prime number. So, the number of lung cancer stages (usually 4) is not a prime number.
+    Observation: False
+    > Running step 7660fab9-af86-4a98-8eed-a91b94034af7. Step input: None
+    Thought: The 'is_prime' tool has returned False, which means 4 is not a prime number. So, the number of lung cancer stages (usually 4) is not a prime number.
     Answer: The factorial of the number of lung cancer treatment cycles a patient has undergone, which is 5, is 120. The number of lung cancer stages, usually 4, is not a prime number.
-    [0mThe factorial of the number of lung cancer treatment cycles a patient has undergone, which is 5, is 120. The number of lung cancer stages, usually 4, is not a prime number.
+    The factorial of the number of lung cancer treatment cycles a patient has undergone, which is 5, is 120. The number of lung cancer stages, usually 4, is not a prime number.
 
 
 
@@ -563,19 +563,19 @@ print(response)
 ```
 
     > Running step cf5f43cf-dfd9-43ca-896a-b2908df0affb. Step input: Lung cancer treatments often involve a series of diagnostic tests to determine the most effective approach. If there are 6 diagnostic tests available and the oncologist wants to explore all possible ways to sequence them, what is the total number of permutations? Also, given that lung cancer affects approximately 1 in 14 people during their lifetime, is the number 14 a prime number? Calculate step by step detailing all of your thought process and make sure you use the tools provided.
-    [1;3;38;5;200mThought: I need to find the factorial of a number using the tool 'factorial'.
+    Thought: I need to find the factorial of a number using the tool 'factorial'.
     Action: factorial
     Action Input: {'n': 6}
-    [0m[1;3;34mObservation: 720
-    [0m> Running step 1f0d52c1-0177-445a-bd70-4767ff74218b. Step input: None
-    [1;3;38;5;200mThought: The total number of permutations for sequencing 6 diagnostic tests is 720. Now, I need to determine if the number 14 is prime using the tool 'is_prime'.
+    Observation: 720
+    > Running step 1f0d52c1-0177-445a-bd70-4767ff74218b. Step input: None
+    Thought: The total number of permutations for sequencing 6 diagnostic tests is 720. Now, I need to determine if the number 14 is prime using the tool 'is_prime'.
     Action: is\_prime
     Action Input: {'n': 14}
-    [0m[1;3;34mObservation: Error: No such tool named `is\_prime`.
-    [0m> Running step 9d54656b-1286-4299-bb2e-669d9f3cca7b. Step input: None
-    [1;3;38;5;200mThought: It seems there is no tool with the name 'is\_prime' to check if a number is prime. I will now determine if the number 14 is prime manually. A prime number is only divisible by 1 and itself, but 14 can be divided by 2 and 7 without leaving a remainder. Therefore, the number 14 is not a prime number.
+    Observation: Error: No such tool named `is\_prime`.
+    > Running step 9d54656b-1286-4299-bb2e-669d9f3cca7b. Step input: None
+    Thought: It seems there is no tool with the name 'is\_prime' to check if a number is prime. I will now determine if the number 14 is prime manually. A prime number is only divisible by 1 and itself, but 14 can be divided by 2 and 7 without leaving a remainder. Therefore, the number 14 is not a prime number.
     Answer: The total number of permutations for sequencing 6 diagnostic tests is 720. However, the tool to check if a number is prime is not available, but I can manually determine that the number 14 is not a prime number as it's divisible by 2 and 7 without leaving a remainder.
-    [0mThe total number of permutations for sequencing 6 diagnostic tests is 720. However, the tool to check if a number is prime is not available, but I can manually determine that the number 14 is not a prime number as it's divisible by 2 and 7 without leaving a remainder.
+    The total number of permutations for sequencing 6 diagnostic tests is 720. However, the tool to check if a number is prime is not available, but I can manually determine that the number 14 is not a prime number as it's divisible by 2 and 7 without leaving a remainder.
 
 
 ## Terminate Ollama Instances
